@@ -15,9 +15,9 @@ Build a data + AI pipeline that:
 ## Project structure
 GreenPubMed_Hackathon/
 data/
-bronze/   # Données brutes
-silver/   # Données nettoyées (Parquet)
-gold/     # Chunks, embeddings, résumés
+bronze/   # Raw Data
+silver/   # Parquet
+gold/     # Chunks, embeddings, abstracts
 src/        # Scripts Python
 notebooks/  # Notebooks Colab
 reports/    # Benchmarks CSV
@@ -31,7 +31,6 @@ pip install sentence-transformers faiss-cpu scikit-learn streamlit matplotlib
 ```
 
 ## Utilisation
-Ouvrir `AI_PubMed.ipynb` dans Google Colab et exécuter les cellules dans l'ordre.
 
-##  Auteure
-Nada Lahbib ENCIBI — M2 Data Engineering
+Open `AI_PubMed.ipynb` in Google Colab and run the cells in order
+
